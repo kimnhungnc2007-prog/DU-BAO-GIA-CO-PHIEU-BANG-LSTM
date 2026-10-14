@@ -513,6 +513,7 @@ if run:
     st.subheader("So sánh giá thực tế và dự báo")
 
     fig, ax = plt.subplots(figsize=(12, 6))ax.plot(
+        
         y_test_real.flatten(),
         label="Giá thật",
         color="blue"
